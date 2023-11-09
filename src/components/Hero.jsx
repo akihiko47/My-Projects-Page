@@ -18,7 +18,7 @@ function Hero() {
         <h1 className='text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-primary-100 to-primary-700 md:text-5xl'>my first tailwind site</h1>
         <p className='text-primary-200 text-xl mt-1'>I hope you like it!</p>
         <div className='flex justify-center mt-20'>
-            <BiLogoTailwindCss size="200px" className='text-accent-400' style = {{transform: `rotate(${angle}deg)`}}/>
+            <BiLogoTailwindCss size="200px" className='text-accent-400 drop-shadow-[0_0px_10px_rgba(74,107,161,1)]' style = {{transform: `rotate(${angle}deg)`}}/>
         </div>
     </div>
   )

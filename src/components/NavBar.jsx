@@ -12,7 +12,7 @@ function NavBar() {
     <div className='text-text-100 bg-background-900 flex justify-between items-center h-20 px-6'>
         <h1 className='uppercase font-bold text-xl md:text-2xl text-primary-300'>akihiko</h1>
         <ul className='hidden md:flex'>
-            <li className='px-4 py-2 font-bold bg-primary-500 text-background-800 rounded-md'>GitHub</li>
+            <li className='px-4 py-2 font-bold bg-primary-300 text-background-800 rounded-md'>GitHub</li>
             <li className='px-4 py-2 font-bold'>Projects</li>
             <li className='px-4 py-2 font-bold'>About</li>
         </ul>
