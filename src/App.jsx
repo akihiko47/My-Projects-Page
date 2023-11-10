@@ -5,7 +5,7 @@ import "./index.css"
 
 function App() {
   return (
-    <div className="h-full bg-background-950 overflow-hidden w-full">
+    <div className="h-full overflow-hidden w-full bg-background-950">
       <NavBar/>
       <Hero/>
       <Main/>
