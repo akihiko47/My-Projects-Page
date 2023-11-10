@@ -1,6 +1,6 @@
 import Hero from "./components/Hero"
 import NavBar from "./components/NavBar"
-import Sliders from "./components/Sliders"
+import Main from "./components/Main"
 import "./index.css"
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="h-full bg-background-950 overflow-hidden w-full">
       <NavBar/>
       <Hero/>
-      <Sliders/>
+      <Main/>
     </div>
   )
 }
