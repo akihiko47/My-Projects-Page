@@ -4,10 +4,10 @@ import Tilt from 'react-parallax-tilt';
 function TiltElement( { glareEnable } ) {
   return (
     <Tilt
-    className="h-full rounded-sm w-full aspect-square overflow-hidden group"
+    className="h-full rounded-sm w-full aspect-square overflow-hidden group border-2 border-background-800"
     perspective={900}
     glareEnable={true}
-    glareMaxOpacity={0.1}
+    glareMaxOpacity={0.1} 
     scale={1.02}
   >
     <img src='./assets/banger.jpg' className='group-hover:scale-125 transition ease-in-out duration-1000'></img>
