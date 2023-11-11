@@ -43,9 +43,9 @@ function NavBar() {
         </ul>
         <div onClick={handleNav} className="block md:hidden">
           {nav ? (
-            <AiOutlineMenu size="24px" className="text-primary-300" />
+            <AiOutlineMenu size="24px" className="text-text-50" />
           ) : (
-            <AiOutlineClose size="24px" className="text-primary-300" />
+            <AiOutlineClose size="24px" className="text-text-50" />
           )}
         </div>
         <div

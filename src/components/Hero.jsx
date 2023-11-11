@@ -14,7 +14,7 @@ function Hero() {
 
   const scrollToProjects = () => {
     window.scrollTo({
-      top: 800,
+      top: 670,
       behavior: "smooth",
     });
   };
@@ -27,7 +27,7 @@ function Hero() {
         <div className='flex justify-center mt-20 md:absolute md:left-[65%] md:top-[25%]'>
             <GiAbstract050 size="200px" className='text-background-900' style = {{transform: `rotate(${angle}deg)`}}/>
         </div>
-        <button type='button' onClick={scrollToProjects} className='transition-all ease-in-out duration-200 uppercase bg-primary-300 px-6 py-3 rounded-md mx-auto font-bold mt-10 hover:rounded-3xl hover:bg-primary-200 hover:shadow-md hover:shadow-primary-300 hover:-translate-y-2 md:ml-0'>view projects</button>
+        <button type='button' onClick={scrollToProjects} className='transition-all ease-in-out duration-200 uppercase bg-primary-300 px-6 py-3 rounded-md mx-auto font-bold mt-14 hover:rounded-3xl hover:bg-primary-200 hover:shadow-md hover:shadow-primary-300 hover:-translate-y-2 md:ml-0'>view projects</button>
     </div>
     
   )
