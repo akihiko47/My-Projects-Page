@@ -27,14 +27,14 @@ function NavBar() {
     <div className="fixed w-full z-30">
       <div className="text-text-100 bg-background-940 flex justify-between items-center h-20 px-6 border-b-2 border-background-900 bg-opacity-70 backdrop-blur-md">
         <div className="flex items-center cursor-pointer" onClick={scrollToTop}>
-          <TbHexagonLetterA size="48px" className="text-primary-300" />
-          <h1 className="uppercase font-bold text-xl md:text-2xl text-primary-300 ml-0">
+          <TbHexagonLetterA size="48px" className="text-text-50" />
+          <h1 className="uppercase font-bold text-xl md:text-2xl text-text500 ml-0">
             kihiko
           </h1>
         </div>
         <ul className="hidden md:flex">
           <a href="https://github.com/akihiko47" target="_blank">
-            <li className="px-4 py-2 font-bold bg-primary-300 text-background-800 rounded-md">
+            <li className="px-4 py-2 font-bold bg-primary-300 text-background-800 rounded-md hover:bg-primary-200 transition ease-in-out duration-300">
               GitHub
             </li>
           </a>
