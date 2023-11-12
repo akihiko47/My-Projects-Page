@@ -25,10 +25,10 @@ function NavBar() {
 
   return (
     <div className="fixed w-full z-30">
-      <div className="text-text-100 bg-background-940 flex justify-between items-center h-20 px-6 border-b-2 border-background-900 bg-opacity-70 backdrop-blur-md">
+      <div className="text-text-100 bg-background-940 flex justify-between items-center h-16 px-6 border-b-2 border-background-900 bg-opacity-70 backdrop-blur-md">
         <div className="flex items-center cursor-pointer" onClick={scrollToTop}>
-          <TbHexagonLetterA size="48px" className="text-text-50" />
-          <h1 className="uppercase font-bold text-xl md:text-2xl text-text500 ml-0">
+          <TbHexagonLetterA size="36px" className="text-text-50" />
+          <h1 className="uppercase font-bold text-xl text-text-50 ml-0">
             kihiko
           </h1>
         </div>
@@ -51,18 +51,20 @@ function NavBar() {
         <div
           className={
             !nav
-              ? "fixed left-0 top-0 bg-background-940 h-screen w-[70%] p-8 ease-in-out duration-500 shadow-xl md:hidden z-40 bg-opacity-90 backdrop-blur-lg border-r-2 border-background-900"
-              : "fixed left-[-100%] top-0 bg-background-940 h-screen w-[70%] p-8 ease-in-out duration-500 shadow-xl z-40 bg-opacity-90 backdrop-blur-lg border-r-2 border-background-900"
+              ? "fixed left-0 top-0 bg-background-940 h-screen w-[70%] p-8 ease-in-out duration-500 shadow-xl md:hidden z-40 bg-opacity-95 backdrop-blur-lg border-r-2 border-background-900"
+              : "fixed left-[-100%] top-0 bg-background-940 h-screen w-[70%] p-8 ease-in-out duration-500 shadow-xl z-40 bg-opacity-95 backdrop-blur-lg border-r-2 border-background-900"
           }
         >
           <ul className="py-4 mt-10">
-            <li className="pt-4 pb-2 border-b-2 border-background-600 font-bold">
-              GitHub
+            <li className="pt-4 pb-2 border-b-2 border-background-600 font-bold text-md">
+              <a href="https://github.com/akihiko47" target="_blank">
+                GitHub
+              </a>
             </li>
-            <li className="pt-4 pb-2 border-b-2 border-background-600 font-bold">
+            <li onClick={scrollToProjects} className="pt-4 pb-2 border-b-2 border-background-600 font-bold text-md">
               Projects
             </li>
-            <li className="pt-4 pb-2 border-b-2 border-background-600 font-bold">
+            <li className="pt-4 pb-2 border-b-2 border-background-600 font-bold text-md">
               About
             </li>
           </ul>

@@ -14,15 +14,15 @@ function Hero() {
 
   const scrollToProjects = () => {
     window.scrollTo({
-      top: 670,
+      top: 750,
       behavior: "smooth",
     });
   };
 
 
   return (
-    <div className='flex p-2 flex-col text-center w-full h-[80vh] min-h-[700px] max-h-[1000px] max-w-[400px] mx-auto justify-center md:max-w-[1200px] md:p-10'>
-        <h1 className='text-3xl text-transparent bg-clip-text bg-gradient-to-br from-text-50 to-primary-200 md:text-4xl md:text-left mt-28 leading-none md:w-[55%] uppercase font-bold'>this is a page with my projects</h1>
+    <div className='flex p-4 flex-col text-center w-full h-[80vh] min-h-[700px] max-h-[1000px] max-w-[400px] mx-auto justify-center md:max-w-[1200px] md:p-10'>
+        <h1 className='text-3xl text-transparent bg-clip-text bg-gradient-to-br from-text-50 to-primary-200 md:text-4xl md:text-left mt-28 leading-none md:w-[55%] uppercase font-bold tracking-tight'>this is a page with my projects</h1>
         <p className='text-text-50 text-md mt-5 md:text-lg md:w-[55%] md:text-left'>This is my first tailwind page. This page contains my projects with links to github. Hope you like it!</p>
         <div className='flex justify-center mt-20 md:absolute md:left-[65%] md:top-[30%]'>
             <GiAbstract050 size="200px" className='text-background-900' style = {{transform: `rotate(${angle}deg)`}}/>
