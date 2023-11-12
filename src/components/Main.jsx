@@ -1,58 +1,67 @@
 import React from "react";
 import TiltElement from "./TiltElement";
+import BangerLogo from "/banger.jpg"
+import RPSLogo from "/RockPaperScissors.jpg"
+import BouncerLogo from "/bouncer.jpg"
+import VoronoiLogo from "/voronoi.jpg"
+import HeatLogo from "/Heat.jpg"
+import WaterLogo from "/WaterSim.jpg"
+import PhysicsLogo from "/physics.jpg"
+import ParticlesLogo from "/particles.jpg"
+import DivLogo from "/divs.jpg"
 
 const projects = [
   {
     name: "banger",
-    icon: "./assets/banger.jpg",
+    icon: BangerLogo,
     link: "https://github.com/akihiko47/Banger",
     key: 1
   },
   {
     name: "Rock Paper Scissors",
-    icon: "./assets/RockPaperScissors.jpg",
+    icon: RPSLogo,
     link: "https://github.com/akihiko47/RockPaperScissors_Cellular-Automata",
     key: 2
   },
   {
     name: "BOUNCER",
-    icon: "./assets/bouncer.jpg",
+    icon: BouncerLogo,
     link: "https://github.com/akihiko47/Bouncer",
     key: 3
   },
   {
     name: "Voronoi diagram",
-    icon: "./assets/voronoi.jpg",
+    icon: VoronoiLogo,
     link: "https://github.com/akihiko47/Voronoi-diagram",
     key: 4
   },
   {
     name: "Heat simulation",
-    icon: "./assets/heat.jpg",
+    icon: HeatLogo,
     link: "https://github.com/akihiko47/Heat-Simulation",
     key: 5
   },
   {
     name: "Water Simulation",
-    icon: "./assets/WaterSim.jpg",
+    icon: WaterLogo,
     link: "https://github.com/akihiko47/Water-Simulation",
     key: 6
   },
   {
     name: "physics engine",
-    icon: "./assets/physics.jpg",
+    icon: PhysicsLogo,
     link: "https://github.com/akihiko47/Verlet-Physics-Engine",
     key: 7
   },
   {
     name: "particle sandbox",
-    icon: "./assets/particles.jpg",
+    icon: ParticlesLogo,
     link: "https://github.com/akihiko47/JS-Particle-Simulation",
     key: 8
   },
   {
     name: "Div Physics",
-    icon: "./assets/divs.jpg",
+    icon: DivLogo,
     link: "https://github.com/akihiko47/Div-Physics",
     key: 9
   },
